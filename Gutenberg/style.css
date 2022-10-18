@@ -12,6 +12,13 @@ body {
   text-align: justify;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.xhtml_center {
+  justify-content: center;
+  display: flex;
+}
+.xhtml_big {
+  font-size: larger;
+}
 P {
   text-indent: 1em;
   margin-top: 0.25em;

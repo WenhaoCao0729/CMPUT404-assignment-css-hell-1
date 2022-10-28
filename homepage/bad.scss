@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  nav {
+    width: 100%;
+    ul {
+      padding: 2rem;
+      list-style-type: none;
+      background-color: pink;
+      li {
+        font-size: 1.25rem;
+        color: black;
+      }
+    }
+  }
+}
+
+main {
+  section.self_intro {
+    table {
+      tr {
+        td {
+          padding: 0.5rem;
+          font-size: 0.9rem;
+          color: red;
+        }
+      }
+    }
+  }
+  section.picture {
+    display: flex;
+    flex: 1 1 200px;
+    position: relative;
+    img {
+      width: 20%;
+    }
+    div.blue_background {
+      background-color: yellow;
+
+      width: 80vw;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: left;
+  width: 400vw;
+}

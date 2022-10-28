@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+header nav {
+  width: 100%;
+}
+header nav ul {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+header nav ul li {
+  font-size: 1.25rem;
+  color: #00008b;
+}
+
+main {
+  display: flex;
+}
+main section.self_intro {
+  flex: 3 1 800px;
+  padding: 1rem;
+}
+main section.self_intro table {
+  border-collapse: collapse;
+}
+main section.self_intro table tr {
+  border-bottom: 2px solid gray;
+  transition: all 0.3s ease;
+}
+main section.self_intro table tr td {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+main section.self_intro table tr:hover {
+  background-color: #add8e6;
+}
+main section.picture {
+  flex: 1 1 600px;
+  position: relative;
+}
+main section.picture img {
+  width: 60%;
+}
+main section.picture div.blue_background {
+  background-color: #446380;
+  position: absolute;
+  width: 30vw;
+  height: 85vh;
+  top: 35px;
+  z-index: -1;
+}/*# sourceMappingURL=good.css.map */
